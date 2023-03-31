@@ -11,6 +11,15 @@ h1
 	font-style: italic;
 }
 
+body{
+	color: #00008b;
+	background-color: #ffd700;
+}
+
+h1, h2{
+	color: red;
+	text-transform: uppercase;
+}
 
 p
 {
@@ -33,6 +42,7 @@ p:first-letter
 	color: #2C3D21;
 	font-size: 18px;
 	font-weight: bold;
+
 }
 
 .keret
@@ -66,5 +76,12 @@ li
 	padding: 3px;
 	margin: 3px;
 	font-style: italic;
+	list-style-image: url("list.png");
 }
 
+#f_vonal{
+	width: 800px;
+	background-color: green;
+	height: 6px;
+	border: none;
+}
